@@ -4,7 +4,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    project_name: str = "real-estate-starter"
+    project_name: str = "Real-Estate"
     env: str = "development"
 
     async_database_url: str = "postgresql+asyncpg://postgres:postgres@postgres:5432/real_estate_db"
